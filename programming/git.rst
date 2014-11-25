@@ -22,7 +22,7 @@ Commits must not be pushed. This will do interactive squashing of 4 last commits
 log
 ---
 
-.. code-block::
+.. code-block:: none
 
     git log --author=bob
     git log --pretty=oneline
@@ -36,7 +36,7 @@ Show not pushed commits:::
 show
 ----
 
-.. code-block::
+.. code-block:: none
 
     git show <treeish>:<file>
     git show HEAD~4:index.html
