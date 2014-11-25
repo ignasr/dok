@@ -16,16 +16,3 @@ show my ip
    $ dig +short myip.opendns.com @resolver1.opendns.com
 
 
-
-
-Formatting exampler below
-=========================
-
-Rename a local branch 
----------------------
-
-If you want to rename the current branch, you can simply do:
-
-``git branch -m <newname>``
-
-
