@@ -36,6 +36,8 @@ Show not pushed commits::
 show
 ----
 
+View (possibly redirect) a file from a specific point in commit history.
+
 .. code-block:: none
 
     git show <treeish>:<file>
