@@ -28,6 +28,9 @@ log
     git log --pretty=oneline
     git log --graph --oneline --decorate --all
     git log --name-status
+
+Show not pushed commits:::
+
     git log --branches --not --remotes
  
 show
