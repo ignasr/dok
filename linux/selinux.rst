@@ -15,6 +15,7 @@ starting auditd (selaert)
 .. code-block:: none
 
     # yum install setroubleshoot-server
+    # service messagebus start
     # service auditd restart
 
 More: auditd http://blog.esmnetworks.com/ 
@@ -132,6 +133,7 @@ analyzing the logs
 Aureport::
 
     # aureport -a
+    # aureport --start today --event --summary -i
 
 http://dgz.dyndns.org/mediawiki/index.php/(RHEL)_HOWTO_configure_the_auditing_of_the_system_(auditd)
 
