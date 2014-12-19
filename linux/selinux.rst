@@ -54,6 +54,7 @@ fcontext
         -u :: user
         -r :: role
         -t :: type
+    # semanage permissive -a httpd_t
     # restorecon -Rv /var/www/html
         -n :: noop
 
