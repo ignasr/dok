@@ -4,7 +4,7 @@ salt
 cmd
 ---
 
-.. code-block: none
+.. code-block:: none
 
     salt-key -L
     salt-key -a s.vagrant.localdomain
@@ -42,7 +42,7 @@ cmd
 installing
 ----------
 
-.. code-block: none
+.. code-block:: none
 
     yum install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
     cd /etc/yum.repos.d/
@@ -53,7 +53,7 @@ installing
 installing minion
 `````````````````
 
-.. code-block: none
+.. code-block:: none
 
     yum install salt-minion
     sed -ie 's/#master: salt/master: s/' /etc/salt/minion
@@ -63,7 +63,7 @@ installing minion
 installing master
 `````````````````
 
-.. code-block: none
+.. code-block:: none
 
     yum install salt-master
     lokkit -p 4505:tcp -p 4506:tcp
