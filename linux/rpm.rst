@@ -4,7 +4,7 @@ rpm
 tools
 -----
 
-.. code-block: none
+.. code-block:: none
 
     yum install rpmdevtools rpmlint
     rpmdev-setuptree
