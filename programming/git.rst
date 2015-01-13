@@ -42,3 +42,10 @@ View (possibly redirect) a file from a specific point in commit history.
 
     git show <treeish>:<file>
     git show HEAD~4:index.html
+
+gitk
+----
+
+Show all branches::
+
+    gitk --all
