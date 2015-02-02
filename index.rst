@@ -11,5 +11,6 @@ Contents:
    networking/00
    programming/00
    solaris/00
+   hardware/00
 
 
