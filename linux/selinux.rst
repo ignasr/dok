@@ -152,11 +152,11 @@ Generate sealert messeges from audit.log::
     # ausearch -m avc -ts today
     # ausearch -m avc -if ./audit.log
     # ausearch -m avc -c sudo
+    # ausearch -m avc -x nginx --start recent
+    # ausearch -m avc --event 10085951 | audit2allow -w
         -c search in executables name
 
     # sealert -a /var/log/audit/audit.log
-
-    # grep 945172 /var/log/audit/audit.log | audit2allow -w
 
 seasearch
 ---------
