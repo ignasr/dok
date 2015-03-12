@@ -49,3 +49,4 @@ databases
 
     CREATE DATABASE mydb WITH OWNER ramesh;
     DROP DATABASE mydb;
+    SELECT pg_size_pretty(pg_database_size('mydatabasename')) As fulldbsize;
