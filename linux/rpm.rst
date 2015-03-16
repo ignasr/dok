@@ -11,6 +11,8 @@ tools
     # Install dependencies of the spec file
     yum-builddep -y collectd-5.4.1/contrib/redhat/collectd.spec
 
+    rpm --eval "%{_datarootdir}"
+
 srpm
 ----
 
