@@ -15,6 +15,15 @@ show my ip
 
    $ dig +short myip.opendns.com @resolver1.opendns.com
 
+remove old files
+----------------
+
+Find and clean files in a directory and its subdirectories:
+
+.. code-block:: bash
+
+    /usr/bin/find /dir -maxdepth 2 \( -name "access*.gz" -o -name "error*.gz" \) -a -mtime +178 -print0 | xargs -0 rm -vf 2>&1 | logger
+
 template
 --------
 
