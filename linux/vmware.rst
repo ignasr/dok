@@ -7,7 +7,7 @@ tools
 centos 6
 ````````
 
-Note: ESXi will show a grey sign "Tools installed (managed by guest).
+Note: ESXi will show a grey sign "Tools installed (managed by guest)".
 
 Install correct vmware-tools-repo version from https://packages.vmware.com/tools/index.html esx.
 
