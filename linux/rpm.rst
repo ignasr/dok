@@ -12,6 +12,13 @@ tools
     yum-builddep -y collectd-5.4.1/contrib/redhat/collectd.spec
 
     rpm --eval "%{_datarootdir}"
+    rpm --showrc | grep topdir
+
+Installing dependencies:
+
+.. code-block:: none
+
+    yum-builddep [package]
 
 srpm
 ----
